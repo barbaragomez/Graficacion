@@ -17,21 +17,21 @@ public class Dibujo extends JPanel{
     
     //Declaramos un arreglo, y almacenamos los bits para la figura
     private final int [] FIGURA = {
-        0x00080,
-        0x000c0,
-        0x000e0,
-        0x000f0,
-        0xffff8,
-        0xffffc,
-        0xffffe,
-        0xfffff,
-        0xffffe,
-        0xffffc,
-        0xffff8,
-        0x000f0,
-        0x000e0,
-        0x000c0,
-        0x00080
+        0x001F0000,
+        0x003F8000,
+        0x007FC000,
+        0x00FFE000,
+        0x00FFE000,
+        0x01FFF000,
+        0x01FFF000,
+        0x01FFF000,
+        0x01FFF800,
+        0x00FFF800,
+        0x00FFF800,
+        0x00FFF000,
+        0x007FE000,
+        0x003F8000,
+        0x000E0000
 
     };
     //Declaramos el tipo y número de nuestra máscara
